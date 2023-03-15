@@ -1,3 +1,6 @@
+![weather-forecast](https://user-images.githubusercontent.com/113803421/225450597-e9a47644-c0c4-4e27-a767-dedc5b4cff11.png)
+
+
 # 06 Server-Side APIs: Weather Dashboard
 
 ## Your Task
