@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#search-btn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.current-weather,
+.forecast,
+.search-history {
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#current-weather-details,
+#forecast-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
